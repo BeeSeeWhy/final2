@@ -12,8 +12,8 @@ public:
   int getTotalFares()
   { return totalFares; }
 
-  virtual int paidFare()
-  { return totalFares += 2; }
+  virtual void paidFare()
+  { totalFares += 2; }
 
 };
 #endif
