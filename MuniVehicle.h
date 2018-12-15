@@ -13,7 +13,7 @@ public:
   { return totalFares; }
 
   virtual int paidFare()
-  { reutrn totalFares += 2; }
+  { return totalFares += 2; }
 
 };
 #endif
